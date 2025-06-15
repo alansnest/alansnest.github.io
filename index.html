@@ -8,11 +8,13 @@
     body { font-family: 'Segoe UI', sans-serif; margin: 0; background: #fff8f0; color: #333; }
     header { background-color: #8a4b2b; color: white; padding: 20px 0; text-align: center; }
     nav a { margin: 0 15px; color: white; text-decoration: none; font-weight: bold; }
-    section { padding: 40px 20px; max-width: 800px; margin: auto; }
+    section { padding: 40px 20px; max-width: 1000px; margin: auto; }
     h2 { color: #8a4b2b; }
     footer { text-align: center; padding: 20px; background-color: #f5e3d2; }
     .product-list { display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; }
-    .product-item { background: #fff; border: 1px solid #ddd; padding: 15px; border-radius: 10px; width: 200px; text-align: center; }
+    .product-item { background: #fff; border: 1px solid #ddd; padding: 15px; border-radius: 10px; width: 250px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+    .product-item img { width: 100%; height: 180px; object-fit: cover; border-radius: 8px; margin-bottom: 10px; }
+    .price { color: #8a4b2b; font-weight: bold; margin-top: 5px; }
   </style>
 </head>
 <body>
@@ -41,16 +43,34 @@
     <h2>Our Products</h2>
     <div class="product-list">
       <div class="product-item">
-        <h3>Pickles</h3>
-        <p>Garlic, Mango, Lemon, and more</p>
+        <img src="https://via.placeholder.com/250x180.png?text=Garlic+Pickle" alt="Garlic Pickle">
+        <h3>Garlic Pickle</h3>
+        <p>Authentic South Indian flavor</p>
+        <div class="price">₹120 / 250g</div>
       </div>
       <div class="product-item">
-        <h3>Masala Powders</h3>
-        <p>Sambar, Rasam, Curry Masala</p>
+        <img src="https://via.placeholder.com/250x180.png?text=Mango+Pickle" alt="Mango Pickle">
+        <h3>Mango Pickle</h3>
+        <p>Spicy and tangy homemade taste</p>
+        <div class="price">₹110 / 250g</div>
       </div>
       <div class="product-item">
+        <img src="https://via.placeholder.com/250x180.png?text=Sambar+Powder" alt="Sambar Powder">
+        <h3>Sambar Powder</h3>
+        <p>Traditional blend of roasted spices</p>
+        <div class="price">₹90 / 100g</div>
+      </div>
+      <div class="product-item">
+        <img src="https://via.placeholder.com/250x180.png?text=Rasam+Powder" alt="Rasam Powder">
+        <h3>Rasam Powder</h3>
+        <p>Flavor-packed, aromatic spice mix</p>
+        <div class="price">₹85 / 100g</div>
+      </div>
+      <div class="product-item">
+        <img src="https://via.placeholder.com/250x180.png?text=Spice+Mixes" alt="Spice Mixes">
         <h3>Spice Mixes</h3>
-        <p>Traditional blends from our kitchen</p>
+        <p>Made with age-old family recipes</p>
+        <div class="price">₹95 / 100g</div>
       </div>
     </div>
   </section>
